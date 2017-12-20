@@ -15266,3 +15266,11 @@ var cap = new CircleAudioPlayer({
   borderWidth: 2
 });
 cap.appendTo(aud9);
+$(document).ready(function() {
+	$(window).scroll(function() {
+		var scrollTop = $(window).scrollTop();
+		$('.bg-image').css({
+			'transform': 'translate3d(0,' + scrollTop * 0.3 + 'px, 0)'
+		})
+	})
+});

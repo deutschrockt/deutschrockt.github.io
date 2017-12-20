@@ -177,24 +177,29 @@
             </div>
             
             <div class="col-lg-1">
-                <h4 class="title" style="padding: 0.5rem 0;">Подпишись</h4>
-                
-                <div id="vk_subscribe" style="padding-bottom: 1rem;"></div>
-                    <script type="text/javascript">
-                    VK.Widgets.Subscribe("vk_subscribe", {}, -152822722);
-                    </script>
-                <h4 class="title" style="padding: 0.5rem 0;">Поделиться</h4>
-                <div>
-                    <script type="text/javascript">
-                    document.write(VK.Share.button(false,{type: "round", text: "Сохранить"}));
-                    </script>
+                <div class="float-left">
+                    <h4 class="title" style="padding: 0.5rem 0;">Подпишись</h4>
+                    <div id="vk_subscribe" style="padding-bottom: 1rem;"></div>
+                        <script type="text/javascript">
+                        VK.Widgets.Subscribe("vk_subscribe", {mode: 2, soft: 1}, -152822722);
+                        </script>
+                    <h4 class="title" style="padding: 0.5rem 0;">Поделиться</h4>
+                    <div>
+                        <script type="text/javascript">
+                        document.write(VK.Share.button(false,{type: "round", text: "Сохранить"}));
+                        </script>
+                    </div>
+                    <h4 class="title"  style="padding: 0.5rem 0;">Теги</h4>
+                    <div class="container note">
+                        <div class="note-in">
+                            <p class="tag" style="font-weight: bold; margin-bottom: 0.5rem;">#german</p>
+                            <p class="tag" style="font-weight: bold; margin-bottom: 0.5rem;">#deutsch</p>
+                            <p class="tag" style="font-weight: bold; margin-bottom: 0.5rem;">#deutsch_per_skype</p>
+                            <p class="tag" style="font-weight: bold; margin-bottom: 0.5rem;">#germany</p>
+                            <p class="tag" style="font-weight: bold; margin-bottom: 0.5rem;">#deutschland</p>
+                        </div>
+                    </div>
                 </div>
-                <h4 class="title"  style="padding: 0.5rem 0;">Теги</h4>
-                <p class="tag" style="font-weight: bold; margin-bottom: 0.5rem;">#german</p>
-                <p class="tag" style="font-weight: bold; margin-bottom: 0.5rem;">#deutsch</p>
-                <p class="tag" style="font-weight: bold; margin-bottom: 0.5rem;">#deutsch_per_skype</p>
-                <p class="tag" style="font-weight: bold; margin-bottom: 0.5rem;">#germany</p>
-                <p class="tag" style="font-weight: bold; margin-bottom: 0.5rem;">#deutschland</p>
             </div>
         </div>
     </div>   
